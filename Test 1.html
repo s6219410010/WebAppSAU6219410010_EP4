@@ -24,6 +24,55 @@
         วันเวลาทำงาน <input type="datetime-local" name="emp_work" id="">
         <br><br>
         เวลา <input type="time" name="emp_time" id="">
+        <br><br>
+        sex 
+        <input type="radio" name="emp_sex" id="" value="m"> Male
+        <input type="radio" name="emp_sex" id="" value="f"> Female
+        <input type="radio" name="" id="" checked value="o"> ไม่บอก อิอิ
+        <br><br>
+        การศืกษาสูงสุด 
+        <!-- เลือกได้แค่ ๑ หรือมากกว่า ๑ -->
+        <select name="emp_edu" id="">
+            <option value="ตรี">ปริญญาครี</option>
+            <option value="โท">ปริญญาโท</option>
+            <option value="เอก">ปริญญาเอก</option>
+        </select>
+        <br><br>
+        คำนำหน้า
+        <select name="emp_title" id="" size="3">
+            <option value="1">เด็กชาย</option>
+            <option value="2">เด็กหญิง</option>
+            <option value="3">นาย</option>
+            <option value="4">นาง</option>
+            <option value="5">นางสาว</option>
+        </select>
+        <br><br>
+        เครื่งดื่ม
+        <select name="emp_drink" id="" size="4" multiple>
+            <option value="แดง">แดง</option>
+            <option value="เขียว">เขียว</option>
+            <option value="ส้ม">ส้ม</option>
+            <option value="ฟ้า">ฟ้า</option>
+            <option value="เหลือง">เหลือง</option>
+            <option value="ดำ">ดำ</option>
+        </select>
+        <br><br>
+        เครื่งดื่ม ๒
+        <input type="checkbox" name="emp_drink1" value="แดง" id=""> แดง
+        <input type="checkbox" name="emp_drink2" value="เขียว" id=""> เขียว
+        <input type="checkbox" name="emp_drink3" value="ส้ม" id=""> ส้ม
+        <input type="checkbox" name="emp_drink4" value="ฟ้า" id=""> ฟ้า
+        <input type="checkbox" name="emp_drink5" value="เหลือง" id=""> เหลือง
+        <input type="checkbox" name="emp_drink6" value="ดำ" id=""> ดำ
+        <br><br>
+        เลือกไฟล์
+        <input type="file" name="emp_files" id="" accept="image/*">
+        <br><br>
+        หมายเหตุ <textarea name="emp_note" id="" cols="5" rows="5"></textarea>
+        <br><br>
+        <input type="submit" value="ตกลง">
+        <input type="reset" value="ยกเลิก">
+        <button>บันทึก save</button>
     </form>
     
 </body>
